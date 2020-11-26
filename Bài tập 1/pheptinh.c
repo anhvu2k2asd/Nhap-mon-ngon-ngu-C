@@ -1,13 +1,27 @@
 #include <stdio.h>
-main()
-{
- int a = 3;
- int b = 5;
- printf("Tong: %d + %d = %d",a,b,a+b);
- printf("\nHieu: %d - %d = %d",a,b,a-b);
- printf("\nTich: %d * %d = %d",a,b,a*b);
- printf("\nThuong: %d / %d = %f",a,b,(float)a/b);
- getchar();
- return 0;
 
+int main(void)
+{
+	// Khai bao bien a, b kieu int
+	int a,b;
+	// khoi tao bien a = 3
+	a = 3;
+	// khoi tao bien b = 5
+	b = 5;
+	// Khai bao cac bien tong, hieu, tich
+	int tong, hieu, tich;
+	// Khai bao bien thuong
+	double thuong;
+	// gan tong a + b
+	tong = a + b;
+	// gan hieu a - b
+	hieu = a - b;
+	// gan tich a * b
+	tich = a * b;
+	// gan thuong a / b va ep kieu
+	thuong = (double)a / b;
+	// hien thi ra man hinh tong = 8, hieu = -2, tich = 15, thuong = 0.6
+	printf("a + b = %d, a - b = %d, a * b = %d, a / b = %0.1f", tong, hieu, tich, thuong);
+	getchar();
+	return 0;
 }
