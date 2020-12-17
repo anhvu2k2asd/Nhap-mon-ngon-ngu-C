@@ -7,8 +7,8 @@ int main(void)
 	printf("Nhap so luong: ");
 	scanf("%d",&soluong);
 	thanhtien = dongia * soluong;
-	if (soluong >=5){
-	printf("so tien can thanh toan %d", thanhtien * 75/100);
+	if (soluong >=5, dongia >=500){
+	printf("so tien can thanh toan %d", thanhtien * 50/100);
 	}
 	else{
 	printf("so tien can thanh toan %d", thanhtien);
