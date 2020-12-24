@@ -3,7 +3,7 @@ int main(void)
 {
 	int count;
 	for (count = 1; count <=10; count++)
-	printf("\n nice");
+	printf("\n xin chao");
 	getchar();
   return 0;
 }
