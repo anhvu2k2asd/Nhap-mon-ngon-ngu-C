@@ -1,0 +1,8 @@
+c = a + b;
+a, b, c là những toán hạng, dấu ‘=’ và dấu ‘+’ là những toán tử.
+Địa chỉ của biến : &
+ pt = '+' : gán
+ pt == '+' : quan hệ (so sánh)
+ //nếu trong '' chưa dấu + thì quan hệ của pt bằng nhau, nếu là - thì pt khác nhau//
+  "DEFAULT" không cần "BREAK" vì "DEFAULT" là lệnh cuối cùng nên không cần "BREAK".
+  "BREAK" là ngắt quảng câu lệnh, để khi chương trình dạy tới câu lệnh đó sẽ dừng
